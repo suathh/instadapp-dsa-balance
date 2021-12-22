@@ -1,0 +1,22 @@
+{
+  "name": "instadapp-dsa-contracts-balance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv-flow": "^3.2.0",
+    "node-cron": "^3.0.0",
+    "querystring": "^0.2.1",
+    "slack-notify": "^0.1.7",
+    "web3": "^1.6.1"
+  }
+}
