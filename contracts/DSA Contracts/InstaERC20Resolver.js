@@ -34,6 +34,6 @@ export const abi = [
   },
 ];
 
-const web3 = new Web3();
-const contract = new web3.eth.Contract(abi, address);
-export default contract;
+const web3 = new Web3(process.env.WEB3_PROVIDER);
+const Resolver = new web3.eth.Contract(abi, address);
+export default Resolver;
