@@ -380,12 +380,7 @@ let count = Math.floor(accounts / step);
 let extraStep = accounts % step;
 let startBlock = 9747241;
 
-console.log("TOTAL ACCOUNT : ", accounts);
-console.log(count);
-console.log(extraStep);
 let accountList = [];
-//0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE
-
 for (let i = accounts; i > accountList.length; ) {
   try {
     console.log(`STARTED FROM BLOCK : ${startBlock} TO ${startBlock + step}`);
